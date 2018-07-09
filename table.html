@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>table</title>
+    <style>
+        body{
+            background: rosybrown;
+        }
+
+        table,tr,td,th{
+
+            border:  solid red;
+            border-collapse: collapse;
+            text-align: center;
+            margin: 2px;
+            padding: 2px;
+
+
+
+        }
+        h1{
+     color: yellow;
+            text-align: center;
+        }
+        tr{
+            background: royalblue;
+
+        }
+        td{
+            background: lightblue;
+        }
+        th{
+            background: green;
+        }
+    </style>
+</head>
+<body>
+<h1>table example</h1>
+<table width="100%">
+    <thead>
+    <tr>
+        <th>SRNO</th>
+        <th>ADDRESS</th>
+        <th>NAME</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>pune</td>
+        <td>gyanba</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>pune</td>
+        <td>Sachin</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>pune</td>
+        <td>Shiv</td>
+    </tr>
+
+    </tbody>
+</table>
+<h1>column collapse</h1>
+<table width="100%">
+    <thead>
+    <tr>
+        <th colspan="2">SRNO</th>
+        <th>ADDRESS</th>
+
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>pune</td>
+        <td>gyanba</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>pune</td>
+        <td>Sachin</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>pune</td>
+        <td>Shiv</td>
+    </tr>
+
+    </tbody>
+</table>
+<h1>ROW COLLAPSE</h1>
+<table width="100%">
+
+    <thead>
+    <tr>
+        <th>SRNO</th>
+        <th>ADDRESS</th>
+        <th>NAME</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td rowspan="2">1&2</td>
+        <td>pune</td>
+        <td>gyanba</td>
+    </tr>
+    <tr>
+
+        <td>pune</td>
+        <td>Sachin</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>pune</td>
+        <td>Shiv</td>
+    </tr>
+
+    </tbody>
+</table>
+
+
+</body>
+</html>
