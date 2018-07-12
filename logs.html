@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login form</title>
+    <style>
+        body{
+            font-family: "Comic Sans MS",Sans-serif;
+        }
+        h2{
+            font-size: 15px;
+            color:green;
+        }
+        form{
+            background-color: orange;
+            padding: 10px;
+            width: 400px;
+            border-radius: 10px;
+            box-shadow: 0 0 0 15px red;
+        }
+    </style>
+</head>
+<body>
+<!-- simple login form -->
+<h2>Login form</h2>
+<br>
+<form>
+<label>username</label><br>
+<input type="text" name="username"><br>
+<label>password</label><br>
+<input type="password" name="password"><br>
+<input type="submit" value="submit">
+<input type="reset" value="reset">
+</form><br>
+<!-- simple login form with table -->
+<h2>Login form with table</h2>
+<form>
+    <table>
+        <tr>
+            <td>
+                <label>username</label>
+            </td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>password</label>
+            </td>
+            <td>
+                <input type="password">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="submit">
+            </td>
+            <td>
+                <input type="reset" value="reset">
+            </td>
+        </tr>
+    </table>
+</form>
+<br><br>
+<form>
+    <label>select a language</label>
+    <select>
+        <option>html</option>
+        <option>css</option>
+        <option>javascript</option>
+        <option>angularjs</option>
+    </select>
+</form>
+<br><br>
+<form>
+<table>
+
+<label>select language</label>
+    <tr>
+        <td>
+<select>
+    <option>css</option>
+    <option>java</option>
+</select>
+        </td>
+    </tr>
+</table>
+</form>
+
+<!--select  with optgroup-->
+<h2>select</h2>
+<form>
+    <label>select technology</label>
+    <select>
+        <optgroup label="language">
+            <option>html</option>
+            <option>css</option>
+            <option>java</option>
+        </optgroup>
+    </select>
+</form>
+<!-- textarea -->
+<h2>text area</h2>
+<form>
+    <label>message</label>
+    <textarea rows="6" cols="35"></textarea>
+</form>
+</body>
+</html>
